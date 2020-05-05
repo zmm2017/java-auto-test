@@ -1,0 +1,2 @@
+# java-auto-test
+test
