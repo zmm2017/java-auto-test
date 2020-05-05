@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="allMyGetMethods">
+    <test name="allMyGetMethods">
+        <classes>
+            <class name="com.course.httpclient.TestMyGet"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.course.report.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>

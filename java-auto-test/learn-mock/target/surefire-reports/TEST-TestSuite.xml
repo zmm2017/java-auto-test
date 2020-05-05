@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.975" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\zhangmm\.m2\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="maven.conf" value="C:\Users\zhangmm\.m2\apache-maven-3.6.3\bin\../conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="maven.home" value="C:\Users\zhangmm\.m2\apache-maven-3.6.3\bin\.."/>
+    <property name="surefire.test.class.path" value="C:\Users\zhangmm\.m2\IdeaProjects\java-auto-test\learn-mock\target\test-classes;C:\Users\zhangmm\.m2\IdeaProjects\java-auto-test\learn-mock\target\classes;C:\Users\zhangmm\.m2\maven-repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\zhangmm\.m2\maven-repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\zhangmm\.m2\maven-repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\zhangmm\.m2\maven-repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\zhangmm\.m2\maven-repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\zhangmm\.m2\maven-repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\zhangmm\.m2\maven-repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\zhangmm\.m2\maven-repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\zhangmm\.m2\maven-repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\zhangmm\.m2\maven-repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\zhangmm\.m2\maven-repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\zhangmm\.m2\maven-repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\zhangmm\.m2\maven-repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\zhangmm\.m2\maven-repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\zhangmm\.m2\maven-repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\zhangmm\.m2\maven-repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\zhangmm\.m2\maven-repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\zhangmm\.m2\maven-repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zhangmm"/>
+    <property name="user.language" value="zh"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="basedir" value="C:\Users\zhangmm\.m2\IdeaProjects\java-auto-test\learn-mock"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="zhangmm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\zhangmm\.m2\maven-repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\zhangmm\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="C:\Users\zhangmm\.m2\IdeaProjects\java-auto-test\learn-mock"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\zhangmm\.m2\IdeaProjects\java-auto-test\learn-mock"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_161\bin;%CATALINA_HOME%\bin;C:\Program Files\Java\jre1.8.0_161\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Users\zhangmm\.m2\apache-maven-3.6.3\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\zhangmm\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="classworlds.conf" value="C:\Users\zhangmm\.m2\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Users\zhangmm\.m2\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testWithParam" classname="com.course.httpclient.TestMyGet" time="0.714">
+    <failure message="expected [204] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [204] but found [200]
+	at com.course.httpclient.TestMyGet.testWithParam(TestMyGet.java:60)
+]]></failure>
+  </testcase>
+  <testcase name="testWithoutParam" classname="com.course.httpclient.TestMyGet" time="0.31">
+    <failure message="expected [杩欐槸涓嶅甫鍙傛暟鐨刧et璇锋眰] but found [这是不带参数的get请求]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [杩欐槸涓嶅甫鍙傛暟鐨刧et璇锋眰] but found [这是不带参数的get请求]
+	at com.course.httpclient.TestMyGet.testWithoutParam(TestMyGet.java:45)
+]]></failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [allMyGetMethods]">
+  <listeners>
+    <listener class-name="com.course.report.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="allMyGetMethods(failed)">
+    <classes>
+      <class name="com.course.httpclient.TestMyGet">
+        <methods>
+          <include name="testWithParam"/>
+          <include name="testWithoutParam"/>
+          <include name="getHost"/>
+        </methods>
+      </class> <!-- com.course.httpclient.TestMyGet -->
+    </classes>
+  </test> <!-- allMyGetMethods(failed) -->
+</suite> <!-- Failed suite [allMyGetMethods] -->

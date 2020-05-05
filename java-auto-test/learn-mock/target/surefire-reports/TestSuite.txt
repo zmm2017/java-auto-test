@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.975 s <<< FAILURE! - in TestSuite
+com.course.httpclient.TestMyGet.testWithParam  Time elapsed: 0.714 s  <<< FAILURE!
+java.lang.AssertionError: expected [204] but found [200]
+	at com.course.httpclient.TestMyGet.testWithParam(TestMyGet.java:60)
+
+com.course.httpclient.TestMyGet.testWithoutParam  Time elapsed: 0.31 s  <<< FAILURE!
+java.lang.AssertionError: expected [杩欐槸涓嶅甫鍙傛暟鐨刧et璇锋眰] but found [这是不带参数的get请求]
+	at com.course.httpclient.TestMyGet.testWithoutParam(TestMyGet.java:45)
+
